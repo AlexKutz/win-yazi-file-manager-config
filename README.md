@@ -3,11 +3,10 @@
 1. Install nerd font in terminal.
 
 2. Clone yazi config to Roaming
-`%AppData%\yazi\config\` yazi config folder on Windows\
-`ya pkg install` to download packages\
+
+3. `ya pkg install` to download packages
 
 3. Add to powershell profile
-    $PROFILE
     ```ps
     function y {
         $tmp = (New-TemporaryFile).FullName
